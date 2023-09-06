@@ -1,0 +1,9 @@
+{
+  "cars": [
+    {"id": 1, "model": "Up", "year": 2015, "color": "Branco" },
+    {"id": 2, "model": "Polo", "year": 2020, "color": "Preto" },
+    {"id": 3, "model": "Golf", "year": 2016, "color": "Vermelho" },
+    {"id": 4, "model": "Nivus", "year": 2022, "color": "Nardo Grey" },
+    {"id": 5, "model": "T-Cross", "year": 2023, "color": "Cinza" }
+   ]
+}
