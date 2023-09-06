@@ -4,11 +4,13 @@ import { ListRenderComponent } from "./components/list-render/list-render.compon
 import { NgModule } from "@angular/core";
 import { EventosComponent } from "./components/eventos/eventos.component";
 import { EmitterComponent } from "./components/emitter/emitter.component";
+import { ItemDetailComponent } from "./components/item-detail/item-detail.component";
 
 const routes: Routes = [
 
       {path: '', component: FirstComponentComponent},
       {path: 'list', component: ListRenderComponent},
+      {path: 'list/:id', component: ItemDetailComponent},
       {path: 'eventos', component: EventosComponent},
       {path: 'emitter', component: EmitterComponent}
 ]
